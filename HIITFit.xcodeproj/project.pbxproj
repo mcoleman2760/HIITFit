@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		02BA605C2E8D16B000D661E9 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02BA605A2E8D16B000D661E9 /* step-up.mp4 */; };
+		02BA605D2E8D16B000D661E9 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02BA60582E8D16B000D661E9 /* burpee.mp4 */; };
+		02BA605E2E8D16B000D661E9 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02BA605B2E8D16B000D661E9 /* sun-salute.mp4 */; };
+		02BA605F2E8D16B000D661E9 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02BA60592E8D16B000D661E9 /* squat.mp4 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		02BA60432E8CA2EB00D661E9 /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BA60582E8D16B000D661E9 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		02BA60592E8D16B000D661E9 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
+		02BA605A2E8D16B000D661E9 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		02BA605B2E8D16B000D661E9 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +45,7 @@
 			children = (
 				02BA60452E8CA2EB00D661E9 /* HIITFit */,
 				02BA60442E8CA2EB00D661E9 /* Products */,
+				02BA60602E8D16B700D661E9 /* Videos */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +55,17 @@
 				02BA60432E8CA2EB00D661E9 /* HIITFit.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		02BA60602E8D16B700D661E9 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				02BA60582E8D16B000D661E9 /* burpee.mp4 */,
+				02BA60592E8D16B000D661E9 /* squat.mp4 */,
+				02BA605A2E8D16B000D661E9 /* step-up.mp4 */,
+				02BA605B2E8D16B000D661E9 /* sun-salute.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BA605C2E8D16B000D661E9 /* step-up.mp4 in Resources */,
+				02BA605D2E8D16B000D661E9 /* burpee.mp4 in Resources */,
+				02BA605E2E8D16B000D661E9 /* sun-salute.mp4 in Resources */,
+				02BA605F2E8D16B000D661E9 /* squat.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +278,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4HJ5MP57Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -282,6 +310,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4HJ5MP57Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
